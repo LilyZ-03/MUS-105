@@ -1,0 +1,43 @@
+============= shuxing3.hw1 transcript [test] (2022-02-10 08:48:34.540250) =============
+  module: pyintro
+    [import]: success  (1/1)
+    function: power
+      [import]: success  (1/1)
+      [  input = [5, 3]  ]  your_output = 125.0  desired_output = 125  (2/2)
+      [  input = [3, 0]  ]  your_output = 1.0  desired_output = 1  (2/2)
+      [  input = [123, 3]  ]  your_output = 1860867.0  desired_output = 1860867  (2/2)
+      [  input = [2, -3]  ]  your_output = 0.125  desired_output = 0.125  (2/2)
+    function: list_sum
+      [import]: success  (1/1)
+      [  input = [[0, 1, 2, 3, 4, 5]]  ]  your_output = 15  desired_output = 15.0  (2/2)
+      [  input = [[-1, 1.5, 3, -2, 6.8]]  ]  your_output = 8.3  desired_output = 8.3  (2/2)
+    function: str_to_int
+      [import]: success  (1/1)
+      [  input = 0x3a  ]  your_output = 58  desired_output = 58  (2/2)
+      [  input = 0o1274  ]  your_output = 700  desired_output = 700  (2/2)
+      [  input = 0b1010000  ]  your_output = 80  desired_output = 80  (2/2)
+      [  input = 15  ]  your_output = 15  desired_output = 15  (2/2)
+      [  input = 0a111  ]  your_output = -1  desired_output = -1  (2/2)
+    function: print_christmas_tree
+      [import]: success  (1/1)
+      [  input = 3  ]  your_output =   *
+ ***
+*****
+  *  desired_output =   *
+ ***
+*****
+  *  (2/2)
+    function: list_to_str
+      [import]: success  (1/1)
+      [  input = [[0, 1, 2, 3, 4]]  ]  your_output = [0, 1, 2, 3, 4]  desired_output = [0, 1, 2, 3, 4]  (2/2)
+      [  input = [['welcome', 'to', 'MUS', '105']]  ]  your_output = ['welcome', 'to', 'MUS', '105']  desired_output = ['welcome', 'to', 'MUS', '105']  (2/2)
+    function: remove_substring_instances
+      [import]: success  (1/1)
+      [  input = ['I love music because music is pretty cool, but right now music is making me do homework...', 'music']  ]  your_output = (3, 'I love  because  is pretty cool, but right now  is making me do homework...')  desired_output = (3, 'I love  because  is pretty cool, but right now  is making me do homework...')  (2/2)
+Total raw score: (37/37)
+
+----------------------
+Base score (if you do nothing but just turn in the starter code): 7
+Extra credit (if applicable): 0
+Adjusted score (Final): 30/30
+
